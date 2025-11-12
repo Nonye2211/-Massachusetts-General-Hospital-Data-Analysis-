@@ -20,3 +20,5 @@ To analyze patient, encounter, and insurance data to identify trends, derive ins
 Source: The dataset  comes from Massachusetts General Hospital's internal data systems (patient encounters, insurance, procedures). The hospital has years of internal patient data, encounter data, and insurance data, which were analyzed to uncover patterns in patient care, costs, and hospital resources.
 
 - ## Number of Rows and Columns
+
+  -The exact number of rows and columns in your dataset isn’t specified here, but typically, for hospital data, it can range from thousands to millions of rows depending on the period and scope of data. For this kind of analysis, you could expect:
