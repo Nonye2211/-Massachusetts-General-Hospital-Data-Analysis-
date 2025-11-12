@@ -1,3 +1,5 @@
+
+
 1. # Introduction
 
 
@@ -12,3 +14,5 @@ This project involves analyzing patient, encounter, and insurance data from Mass
 To analyze patient, encounter, and insurance data to identify trends, derive insights, and provide actionable recommendations that support decision-making in optimizing patient care, reducing readmissions, and improving resource allocation at Massachusetts General Hospital.
 
 #  About the Dataset
+
+- Source of Dataset
