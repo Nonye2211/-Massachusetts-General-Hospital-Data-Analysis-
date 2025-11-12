@@ -21,4 +21,4 @@ Source: The dataset  comes from Massachusetts General Hospital's internal data s
 
 - ## Number of Rows and Columns
 
-  -The exact number of rows and columns in your dataset isn’t specified here, but typically, for hospital data, it can range from thousands to millions of rows depending on the period and scope of data. For this kind of analysis, you could expect:
+  - The exact number of rows and columns in your dataset isn’t specified here, but typically, for hospital data, it can range from thousands to millions of rows depending on the period and scope of data. For this kind of analysis, you could expect:
