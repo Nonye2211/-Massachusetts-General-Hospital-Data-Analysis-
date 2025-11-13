@@ -24,5 +24,4 @@ Source: The dataset  comes from Massachusetts General Hospital's internal data s
 -  ## Key fields/columns
 
    - ## Encounters Table:
-
 - EncounterID, PatientID, AdmissionDateTime, DischargeDateTime, Department/Service, Diagnosis/Procedure, LOS Days (Length of Stay), Cost/Charge, etc.
