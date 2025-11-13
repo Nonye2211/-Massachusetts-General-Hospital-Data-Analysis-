@@ -34,7 +34,7 @@ ProcedureCode, EncounterID, Cost/Charge, Quantity, ResourceTime, etc.
 
 ClaimID, EncounterID, Payer, InsurancePaid, PatientPay, ClaimStatus, etc.
 
--## Patients Table:
+- ## Patients Table:
 
 PatientID, DOB, Age, Sex, Region, ChronicConditionFlag (e.g., diabetes, heart failure), etc.
 
