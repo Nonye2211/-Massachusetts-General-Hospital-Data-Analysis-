@@ -53,3 +53,14 @@ Date, Year, Month, Quarter, Day, etc.
 ## Importing the Dataset
 
 Imported CSV files into Excel for cleaning, then loaded into Power BI for visualization.
+
+## Data Cleaning & Transformation
+
+- Standardised column formats
+- Removal of unnecessary or redundant columns
+- Replacement of abbreviations & categorical standardisation
+- Standardisation of text format
+- Removal of personally identifiable information (PII)
+- Renaming unclear or ambiguous columns
+- Creation of calculated/derived fields
+- Refinement of date formatting
