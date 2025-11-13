@@ -21,4 +21,6 @@ Source: The dataset  comes from Massachusetts General Hospital's internal data s
 
 - ## Number of Rows and Column
 
-  -  ## Key fields/columns
+-  ## Key fields/columns
+
+  -## Encounters Table:
