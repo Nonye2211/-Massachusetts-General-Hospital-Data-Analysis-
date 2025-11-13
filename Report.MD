@@ -41,3 +41,11 @@ PatientID, DOB, Age, Sex, Region, ChronicConditionFlag (e.g., diabetes, heart fa
 - ## Date Table :
 
 Date, Year, Month, Quarter, Day, etc.
+
+## Tools Used
+
+
+- Microsoft Excel
+
+- Power BI
+
