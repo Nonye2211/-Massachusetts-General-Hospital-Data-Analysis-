@@ -64,3 +64,96 @@ Imported CSV files into Excel for cleaning, then loaded into Power BI for visual
 - Renaming unclear or ambiguous columns
 - Creation of calculated/derived fields
 - Refinement of date formatting
+
+## Data Modeling 
+
+- Age of Deceased
+
+Used to analyse mortality trends and age-related patterns.
+
+Age of Deceased = 
+IF (
+    NOT ISBLANK([Date of Death]),
+    DATEDIFF([Date of Birth], [Date of Death], YEAR),
+    BLANK()
+)
+
+- Length of Stay (LOS)
+
+Used to determine patient-stay efficiency and identify long-stay outliers.
+
+Length of Stay = 
+DATEDIFF([Start Date], [Stop Date], DAY)
+
+- Age Band (for demographic grouping)
+
+Grouped patients into standard age brackets for clearer analysis.
+
+Age Band = 
+SWITCH(
+    TRUE(),
+    [Age] < 18, "0–17",
+    [Age] <= 35, "18–35",
+    [Age] <= 50, "36–50",
+    [Age] <= 65, "51–65",
+    "66+"
+)
+
+- Cleaned Categorical Columns
+
+These were created after replacing abbreviations:
+
+Marital Status (M → Married, S → Single)
+
+Gender (M → Male, F → Female)
+
+- Standardised Race & Ethnicity values
+
+(Performed in Power Query using Replace Values and Text Formatting.)
+
+1.5 Diagnosis and Procedure Standardization
+
+Columns renamed or restructured:
+
+ReasonCode → Diagnosis Code
+
+ReasonDescription → Diagnosis Description
+
+Code → Procedure Code
+
+(Performed using Rename Column feature in Power Query.)
+
+-  DAX Measures (For Use in Visuals and KPIs)
+
+
+- Total Number of Encounters
+Total Encounters = COUNTROWS(Encounters)
+
+- Average Length of Stay
+Average LOS = AVERAGE(Encounters[Length of Stay])
+
+- Total Procedures Performed
+Total Procedures = COUNTROWS(Procedures)
+
+- Total Cost (If Procedure Cost Exists)
+Total Cost = SUM(Procedures[Cost])
+
+- Death Count
+Total Deaths = COUNTROWS(FILTER(Patients, NOT ISBLANK(Patients[Date of Death])))
+
+- Readmission Rate (If 30-day readmissions were required)
+
+(If using Start/Stop date to determine next encounter for same patient)
+
+Readmission Rate = 
+DIVIDE(
+    [Number of Readmissions],
+    [Total Index Admissions]
+)
+
+
+(You can remove this if your dataset does not contain readmission logic.)
+
+- Patient Count
+Total Patients = DISTINCTCOUNT(Encounters[Patient Code])
+
