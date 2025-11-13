@@ -25,3 +25,19 @@ Source: The dataset  comes from Massachusetts General Hospital's internal data s
 
    - ## Encounters Table:
 - EncounterID, PatientID, AdmissionDateTime, DischargeDateTime, Department/Service, Diagnosis/Procedure, LOS Days (Length of Stay), Cost/Charge, etc.
+
+- Procedures Table:
+
+ProcedureCode, EncounterID, Cost/Charge, Quantity, ResourceTime, etc.
+
+- Claims Table:
+
+ClaimID, EncounterID, Payer, InsurancePaid, PatientPay, ClaimStatus, etc.
+
+- Patients Table:
+
+PatientID, DOB, Age, Sex, Region, ChronicConditionFlag (e.g., diabetes, heart failure), etc.
+
+- Date Table :
+
+Date, Year, Month, Quarter, Day, etc.
