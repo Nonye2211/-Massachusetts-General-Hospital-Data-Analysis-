@@ -23,4 +23,4 @@ Source: The dataset  comes from Massachusetts General Hospital's internal data s
 
 -  ## Key fields/columns
 
-  -## Encounters Table:
+  - ## Encounters Table:
