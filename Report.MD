@@ -132,3 +132,12 @@ Imported CSV files into Excel for cleaning, then loaded into Power BI for visual
 - Mortality Metrics (Total Deaths, Age of Deceased)
 
 - Encounter Trends Over Time (Monthly/Yearly)
+
+
+## Data Visualization
+Document dashboards/pages and charts used:
+
+
+
+
+
