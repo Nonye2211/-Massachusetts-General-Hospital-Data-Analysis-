@@ -189,7 +189,7 @@ Bar Charts:
 
 [Overview Dashboard](https://github.com/Nonye2211/-Massachusetts-General-Hospital-Data-Analysis-/blob/main/Overview_Dashboard.png.png?raw=true)
 
-[Insights Dashboard]()
+[Insights Dashboard](https://github.com/Nonye2211/-Massachusetts-General-Hospital-Data-Analysis-/blob/main/Patient_Demographics_Dashboard.png.png)
 
 
 
