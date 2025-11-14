@@ -1,7 +1,19 @@
 #Massachusetts General Hospital Analysis
 ## Table of Contents
 1. Introduction
-2.Project Description
+2. Project Description
+ 3. Project Aim
+4. About the Dataset
+5. Tools Used
+6.  Importing the Dataset
+7.  Data Cleaning & Transformation
+8. Data Modeling
+9. Data Analysis
+10. Data Visualization
+11. Key Insights
+12. Recommendations
+13. Conclusion
+
 
 1. # Introduction
 This project analyzes patient, encounter, and insurance data to uncover trends, generate insights, and provide actionable recommendations that address operational and financial challenges at Massachusetts General Hospital. By examining key factors such as readmission rates, treatment costs, and resource utilization, this analysis aims to support informed decision-making that improves patient care, optimizes resource allocation, and reduces operational inefficiencies.
