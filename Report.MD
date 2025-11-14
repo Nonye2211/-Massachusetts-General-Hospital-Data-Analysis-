@@ -107,3 +107,28 @@ Imported CSV files into Excel for cleaning, then loaded into Power BI for visual
 
 - Ensured all relationships use single-direction filtering to avoid ambiguity.
 
+ #Data Analysis
+
+##Metrics, KPIs, or Columns Analyzed
+
+- Total Encounters
+
+- Average Length of Stay (LOS)
+
+- Readmission Rate (30-Day)
+
+- Total Procedures Performed
+
+- Cost of Procedures / Total Procedure Cost
+
+- Patient Demographics (Age, Gender, Race, Marital Status)
+
+- Diagnosis Performance (Top Diagnoses by Frequency)
+
+- Procedure Performance (Volume and Cost)
+
+- Insurance Coverage vs Out-of-Pocket Payments
+
+- Mortality Metrics (Total Deaths, Age of Deceased)
+
+- Encounter Trends Over Time (Monthly/Yearly)
