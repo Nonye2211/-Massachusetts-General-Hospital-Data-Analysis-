@@ -185,6 +185,12 @@ Bar Charts:
 
 - Readmission Rate by County
 
+## View Dashboards
+
+[Overview Dashboard]()
+
+[Insights Dashboard]()
+
 
 
 
