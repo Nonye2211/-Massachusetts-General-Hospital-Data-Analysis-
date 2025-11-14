@@ -65,95 +65,45 @@ Imported CSV files into Excel for cleaning, then loaded into Power BI for visual
 - Creation of calculated/derived fields
 - Refinement of date formatting
 
-## Data Modeling 
+# Data Modeling 
 
-- Age of Deceased
+- Created Calculated Columns
 
-Used to analyse mortality trends and age-related patterns.
+- Created a calculated column Age of Deceased to determine the age of patients at death.
 
-Age of Deceased = 
-IF (
-    NOT ISBLANK([Date of Death]),
-    DATEDIFF([Date of Birth], [Date of Death], YEAR),
-    BLANK()
-)
+- Created a calculated column Length of Stay to measure the number of days each patient stayed in the hospital.
 
-- Length of Stay (LOS)
+- Created an Age Band column to group patients into demographic categories.
 
-Used to determine patient-stay efficiency and identify long-stay outliers.
+- Cleaned and standardised categorical columns (Gender, Marital Status, Race, Ethnicity).
 
-Length of Stay = 
-DATEDIFF([Start Date], [Stop Date], DAY)
+- Renamed unclear fields for clarity (e.g., Encounter → Encounter Code, ReasonCode → Diagnosis Code).
 
-- Age Band (for demographic grouping)
+- Converted all DateTime fields to Date-only formats to support trend and time-based analysis.
 
-Grouped patients into standard age brackets for clearer analysis.
+## Created DAX Measures
 
-Age Band = 
-SWITCH(
-    TRUE(),
-    [Age] < 18, "0–17",
-    [Age] <= 35, "18–35",
-    [Age] <= 50, "36–50",
-    [Age] <= 65, "51–65",
-    "66+"
-)
+- Created a measure Total Encounters to count all patient encounters.
 
-- Cleaned Categorical Columns
+- Created a measure Total Patients using DISTINCTCOUNT to count unique patients.
 
-These were created after replacing abbreviations:
+- Created a measure Average LOS to calculate the average patient Length of Stay.
 
-Marital Status (M → Married, S → Single)
+- Created a measure Total Procedures to count the number of procedures performed.
 
-Gender (M → Male, F → Female)
+- Created a measure Total Deaths to count all records with a valid Date of Death.
 
-- Standardised Race & Ethnicity values
+- Created a measure Total Cost (if cost data is available) to sum the cost of all procedures.
 
-(Performed in Power Query using Replace Values and Text Formatting.)
+## Built Data Model Relationships
 
-1.5 Diagnosis and Procedure Standardization
+- Connected Patients[Patient Code] to Encounters[Patient Code] (One-to-Many).
 
-Columns renamed or restructured:
+- Connected Encounters[Encounter Code] to Procedures[Encounter Code] (One-to-Many).
 
-ReasonCode → Diagnosis Code
+- Connected Encounters[Encounter Code] to Payers[Encounter Code] (One-to-Many).
 
-ReasonDescription → Diagnosis Description
+- Linked the Date Table to encounter start and stop dates for time-series analysis.
 
-Code → Procedure Code
-
-(Performed using Rename Column feature in Power Query.)
-
--  DAX Measures (For Use in Visuals and KPIs)
-
-
-- Total Number of Encounters
-Total Encounters = COUNTROWS(Encounters)
-
-- Average Length of Stay
-Average LOS = AVERAGE(Encounters[Length of Stay])
-
-- Total Procedures Performed
-Total Procedures = COUNTROWS(Procedures)
-
-- Total Cost (If Procedure Cost Exists)
-Total Cost = SUM(Procedures[Cost])
-
-- Death Count
-Total Deaths = COUNTROWS(FILTER(Patients, NOT ISBLANK(Patients[Date of Death])))
-
-- Readmission Rate (If 30-day readmissions were required)
-
-(If using Start/Stop date to determine next encounter for same patient)
-
-Readmission Rate = 
-DIVIDE(
-    [Number of Readmissions],
-    [Total Index Admissions]
-)
-
-
-(You can remove this if your dataset does not contain readmission logic.)
-
-- Patient Count
-Total Patients = DISTINCTCOUNT(Encounters[Patient Code])
+- Ensured all relationships use single-direction filtering to avoid ambiguity.
 
