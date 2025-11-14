@@ -15,7 +15,7 @@ To analyze patient, encounter, and insurance data to identify trends, derive ins
 
 #  About the Dataset
 
-- ## Source of Dataset
+## Source of Dataset
 
 The dataset  comes from Massachusetts General Hospital's internal data systems (patient encounters, insurance, procedures). The hospital has years of internal patient data, encounter data, and insurance data, which were analyzed to uncover patterns in patient care, costs, and hospital resources.
 
@@ -218,7 +218,7 @@ Bar Charts:
 
 - Expand preventive and community-based programs in counties with elevated readmission rates (Plymouth and Norfolk) to reduce hospital returns.
 
-##Conclusion
+## Conclusion
 Insights from the hospital data highlight key opportunities to reduce readmissions, improve patient care, and optimize costs. By addressing high-risk encounter types, focusing on vulnerable patient groups, and strengthening follow-up care, the hospital can enhance outcomes and improve operational efficiency.
 
 ## Contact Information
