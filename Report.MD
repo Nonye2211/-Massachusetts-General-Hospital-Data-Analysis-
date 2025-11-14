@@ -225,8 +225,8 @@ Bar Charts:
 ##Conclusion
 Insights from the hospital data highlight key opportunities to reduce readmissions, improve patient care, and optimize costs. By addressing high-risk encounter types, focusing on vulnerable patient groups, and strengthening follow-up care, the hospital can enhance outcomes and improve operational efficiency.
 
- Contact Information
-Include your professional contact info:
+## Contact Information
+
 LinkedIn: [www.linkedin.com/in/nonye-mbata-1a963212b]
 
 
