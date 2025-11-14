@@ -107,9 +107,9 @@ Imported CSV files into Excel for cleaning, then loaded into Power BI for visual
 
 - Ensured all relationships use single-direction filtering to avoid ambiguity.
 
- #Data Analysis
+ # Data Analysis
 
-##Metrics, KPIs, or Columns Analyzed
+## Metrics, KPIs, or Columns Analyzed
 
 - Total Encounters
 
