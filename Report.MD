@@ -192,11 +192,19 @@ Bar Charts:
 [Insights Dashboard](https://github.com/Nonye2211/-Massachusetts-General-Hospital-Data-Analysis-/blob/main/Patient_Demographics_Dashboard.png.png)
 
 ## Key Insights
-- What is the current rate of readmissions — and is it rising? Urgent care and inpatient departments are driving high readmission rates, indicating potential gaps in follow-up care or care quality.
-- Which procedures/encounters are the most expensive and why? Urgent care clinic visits generate the highest financial burden, signaling a need for better primary care access and preventive programs.
-- How does insurance coverage compare with patient out-of-pocket payments? The hospital relies heavily on government-funded insurance, indicating high proportions of elderly and low-income patients.
-- Which patient demographics are linked to more readmissions? Certain ethnic groups and specific cities (Hull, Weymouth) show significantly higher readmission rates, suggesting socioeconomic or care-access disparities.
-- Are patients staying longer than expected? Longer hospital stays may be due to patient complexity or delays in care transitions.
+- Urgent Care encounters account for the largest portion of total claim cost, contributing over $23M, making it the highest-cost category in the hospital.
+
+- Patients in the 51–65 and 66+ age bands drive the highest readmission rates, especially in counties like Plymouth and Norfolk.
+
+- Medicare is the highest-paying insurer, responsible for over $24M in claims, but shows high readmission patterns across multiple encounter types.
+
+- Inpatient and Urgent Care classes have the highest readmission rates (71–74%), indicating possible gaps in discharge planning or follow-up care.
+
+- Hispanic and White patients show higher readmission percentages, suggesting demographic groups that may require targeted post-care intervention.
+
+- Monthly claim costs peak in March and September, even though encounter volumes remain steady—indicating higher-cost procedures or acute cases during those months.
+
+- Cities such as Hull and Weymouth show extremely high readmission rates (79–91%), suggesting geographic disparities in access to quality follow-up care.
 
 
 
