@@ -134,8 +134,56 @@ Imported CSV files into Excel for cleaning, then loaded into Power BI for visual
 - Encounter Trends Over Time (Monthly/Yearly)
 
 
-## Data Visualization
+# Data Visualization
 Document dashboards/pages and charts used:
+
+## Overview Dashboard
+KPI Cards:
+
+- Total Patients
+
+- Total Encounters
+
+- Total Claim Cost
+
+- Readmission Rate (%)
+
+-Average Length of Stay (Days)
+
+Line Chart:
+
+- Readmission Rate (%) Trend Over the Year
+
+Bar + Line Combo Chart:
+
+- Encounters per Month (Bar)
+
+- Claim Cost per Month (Line)
+
+Bar Chart:
+
+- Total Claim Cost by Encounter Description
+
+- Readmission Rate by Encounter Class
+
+- Top 5 Payers by Total Claim Amount
+
+## Patient Demographics Dashboard
+Donut Charts:
+
+- Readmission Rate by Gender
+
+- Readmission Rate by Marital Status
+
+- Readmission Count by Ethnicity
+
+- Readmission Rate by Race
+
+Bar Charts:
+
+- Readmission Rate by City
+
+- Readmission Rate by County
 
 
 
