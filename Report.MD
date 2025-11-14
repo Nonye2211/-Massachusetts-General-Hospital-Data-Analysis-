@@ -144,7 +144,7 @@ KPI Cards:
 
 - Readmission Rate (%)
 
--Average Length of Stay (Days)
+- Average Length of Stay (Days)
 
 Line Chart:
 
