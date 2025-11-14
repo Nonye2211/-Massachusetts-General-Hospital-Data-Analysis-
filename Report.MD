@@ -1,8 +1,8 @@
-#Massachusetts General Hospital Analysis
+# Massachusetts General Hospital Analysis
 ## Table of Contents
 1. Introduction
 2. Project Description
- 3. Project Aim
+3. Project Aim
 4. About the Dataset
 5. Tools Used
 6.  Importing the Dataset
