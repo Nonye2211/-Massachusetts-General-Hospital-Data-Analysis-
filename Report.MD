@@ -29,18 +29,18 @@ To analyze patient, encounter, and insurance data to identify trends, derive ins
 
 ## Source of Dataset
 
-The dataset  comes from Massachusetts General Hospital's internal data systems (patient encounters, insurance, procedures). The hospital has years of internal patient data, encounter data, and insurance data, which were analyzed to uncover patterns in patient care, costs, and hospital resources.
+The dataset  comes from Massachusetts General Hospital's internal data systems (patient encounters, Payers, procedures). T which were analyzed to uncover patterns in patient care, costs, and hospital resources.
 
  ## Encounters Table:
-- EncounterID, PatientID, AdmissionDateTime, DischargeDateTime, Department/Service, Diagnosis/Procedure, LOS Days (Length of Stay), Cost/Charge, etc.
-
+ PatientID,Start,Stop,Patient, Organisation,Payer,Encounter,Description,Reason Description 
 ## Procedures Table:
+Start, Stop	Patient, 	Encounter	Code,	Description,	Base-Cost,Reason Code,	ReasonDescription
 
-ProcedureCode, EncounterID, Cost/Charge, Quantity, ResourceTime, etc.
 
- ## Claims Table:
+ ## Payers
 
-ClaimID, EncounterID, Payer, InsurancePaid, PatientPay, ClaimStatus, etc.
+Id,	Name,	Address,	City,	State,_Headquater,	ZIP,	Phone
+
 
  ## Patients Table:
 
