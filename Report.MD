@@ -77,11 +77,7 @@ Imported CSV files into Excel for cleaning, then loaded into Power BI for visual
 
 - Created Calculated Columns
 
-- Created a calculated column Age of Deceased to determine the age of patients at death.
-
 - Created a calculated column Length of Stay to measure the number of days each patient stayed in the hospital.
-
-- Created an Age Band column to group patients into demographic categories.
 
 - Cleaned and standardised categorical columns (Gender, Marital Status, Race, Ethnicity).
 
@@ -99,8 +95,6 @@ Imported CSV files into Excel for cleaning, then loaded into Power BI for visual
 
 - Created a measure Total Procedures to count the number of procedures performed.
 
-- Created a measure Total Deaths to count all records with a valid Date of Death.
-
 - Created a measure Total Cost (if cost data is available) to sum the cost of all procedures.
 
 ## Built Data Model Relationships
@@ -110,8 +104,6 @@ Imported CSV files into Excel for cleaning, then loaded into Power BI for visual
 - Connected Encounters[Encounter Code] to Procedures[Encounter Code] (One-to-Many).
 
 - Connected Encounters[Encounter Code] to Payers[Encounter Code] (One-to-Many).
-
-- Linked the Date Table to encounter start and stop dates for time-series analysis.
 
 - Ensured all relationships use single-direction filtering to avoid ambiguity.
 
