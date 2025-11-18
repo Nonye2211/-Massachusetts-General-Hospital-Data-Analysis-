@@ -207,18 +207,29 @@ Bar Charts:
 - Cities such as Hull and Weymouth show extremely high readmission rates (79–91%), suggesting geographic disparities in access to quality follow-up care.
  
 # Recommendations from the Data Analysis
-## 👨‍⚕	Hospital management
-	- Put stronger discharge plans in place specifically for urgent care and inpatient patients.
+## 	Hospital management
 - 	Put stronger discharge plans in place specifically for urgent care and inpatient patients.
-Audit the readmission metric immediately for accuracy.
-Implement care coordination and discharge planning for high-risk patients to reduce repeat visits.
 
-## 👨‍⚕ Clinical Staff (Doctors, Nurses, Lab Technicians, Pharmacists)
-Prioritize elderly care plans and age-specific medication management.
-Focus on early intervention for atrial fibrillation, cancer, and chronic respiratory illnesses.
+##  Clinical Staff (Doctors, Nurses, Lab Technicians, Pharmacists)
+- Set up post-discharge follow-up, for example: calls or telehealth checks within 48–72 hours.
+- Implement care coordination and discharge planning for high-risk patients to reduce repeat visits.
+## Finance, Medical Operations, and Department Leads.
+o	Run a cost–benefit analysis on urgent care procedures and prenatal visits.
+o	Look for opportunities to:
+	Avoid unnecessary repeat procedures
+	Use telemedicine for follow-ups were clinically safe
+	Standardise treatment pathways to reduce variation and waste
+##	For payers (Medicare & Medicaid)
 
-## 🏥 Department Heads
+o	Improve claim accuracy and timely submission to reduce denials and delays.
+o	Schedule regular performance review meetings with payer reps to spot recurring issues early.
 
+## Public Health Department, Community Outreach Team, and Clinical Leads.
+•	Launch targeted programs in these high-risk locations, for example:
+o	Telehealth follow-up clinics
+o	Community outreach or nurse-led home visit pilots
+•	Work with regional health coordinators and county health boards to align hospital efforts with local services.
+ 
 Adjust staffing in January, February, and November to meet peak encounter demand.
 Improve coordination for frequently performed procedures through workflow optimization.
 
