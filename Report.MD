@@ -207,7 +207,9 @@ Bar Charts:
 - Cities such as Hull and Weymouth show extremely high readmission rates (79–91%), suggesting geographic disparities in access to quality follow-up care.
  
 # Recommendations from the Data Analysis
-## 👨‍⚕  Medical Directors
+## 👨‍⚕	Hospital management
+	- Put stronger discharge plans in place specifically for urgent care and inpatient patients.
+- 	Put stronger discharge plans in place specifically for urgent care and inpatient patients.
 Audit the readmission metric immediately for accuracy.
 Implement care coordination and discharge planning for high-risk patients to reduce repeat visits.
 
@@ -220,16 +222,18 @@ Focus on early intervention for atrial fibrillation, cancer, and chronic respira
 Adjust staffing in January, February, and November to meet peak encounter demand.
 Improve coordination for frequently performed procedures through workflow optimization.
 
-📊  Healthcare Analysts
+## 📊  Healthcare Analysts
 Perform root cause analysis for high-cost procedures.
 Analyze payer performance and claim denials to identify reimbursement inefficiencies.
-🧑‍💼  Administrative Officers
+
+## 🧑‍💼 Administrative Officers
 Launch patient financial counseling to support uninsured and out-of-pocket patients.
 Engage with insurance companies to renegotiate terms for top-billed procedures.
-🤝  Insurance Partners
+
+##🤝 Insurance Partners
 Promote insurance literacy and simplify enrollment to reduce the uninsured population.
 Explore value-based care agreements to align billing with outcomes.
-🧪 ## Public Health Workers
+## 🧪 Public Health Workers
 Initiate outreach programs for minorities with limited healthcare access.
 Promote preventive screening for high-risk elderly patients.
 # Conclusion
