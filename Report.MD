@@ -210,9 +210,11 @@ Bar Charts:
 👨‍⚕ ## Medical Directors
 Audit the readmission metric immediately for accuracy.
 Implement care coordination and discharge planning for high-risk patients to reduce repeat visits.
+
 🧑‍⚕ ## Clinical Staff (Doctors, Nurses, Lab Technicians, Pharmacists)
 Prioritize elderly care plans and age-specific medication management.
 Focus on early intervention for atrial fibrillation, cancer, and chronic respiratory illnesses.
+
 🏥 ## Department Heads
 Adjust staffing in January, February, and November to meet peak encounter demand.
 Improve coordination for frequently performed procedures through workflow optimization.
