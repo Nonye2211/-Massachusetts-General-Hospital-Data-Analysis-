@@ -183,12 +183,15 @@ Bar Charts:
 
 ## View Dashboards
 
-### 📊 Overview Dashboard
-![Overview Dashboard](https://raw.githubusercontent.com/Nonye2211/-Massachusetts-General-Hospital-Data-Analysis-/main/Overview_Dashboard.png)
+## 📊 Dashboard 1: Overview
 
-### 👥 Patient Demographics Dashboard
-![Patient Demographics Dashboard](https://raw.githubusercontent.com/Nonye2211/-Massachusetts-General-Hospital-Data-Analysis-/main/Patient_Demographics_Dashboard.png)
+![Dashboard 1 Overview](https://raw.githubusercontent.com/Nonye2211/-Massachusetts-General-Hospital-Data-Analysis-/main/Overview_Dashboard.png)
 
+---
+
+## 👥 Dashboard 2: Patient Demographics
+
+![Dashboard 2 Demographics](https://raw.githubusercontent.com/Nonye2211/-Massachusetts-General-Hospital-Data-Analysis-/main/Patient_Demographics_Dashboard.png)
 
 ## Key Insights
 - Urgent Care encounters account for the largest portion of total claim cost, contributing over $23M, making it the highest-cost category in the hospital.
