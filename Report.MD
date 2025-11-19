@@ -127,8 +127,6 @@ Imported CSV files into Excel for cleaning, then loaded into Power BI for visual
 
 - Insurance Coverage vs Out-of-Pocket Payments
 
-- Mortality Metrics (Total Deaths, Age of Deceased)
-
 - Encounter Trends Over Time (Monthly/Yearly)
 
 
